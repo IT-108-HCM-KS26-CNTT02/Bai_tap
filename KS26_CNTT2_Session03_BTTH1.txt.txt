@@ -1,0 +1,21 @@
+Phần 1: Tóm tắt sai lầm của Nam
+ -Vị trí lưu trữ: C:\Windows\System32\ là thư mục hệ thống. Lưu dữ liệu ở đây dễ làm hỏng OS, yêu cầu quyền Admin phức tạp và mất hết dữ liệu khi cài lại Win.
+ -Đặt tên file: Dùng khoảng trắng và tiếng Việt có dấu (Bai Tap Cua Nam, bai tap 1.py) gây lỗi mã hóa (UTF-8) và lỗi chạy lệnh trên Terminal/IDE.
+ -Hiểu lầm tốc độ mạng: Tốc độ nhà mạng tính bằng Mbps (Megabit/s), còn máy tính hiển thị bằng MB/s (Megabyte/s).
+ -Tốc độ thực tế = 100Mbps/8=12.5MB/s => Nhà mạng đúng.
+Dung lượng SSD 256 GB:
+ -Nhà sản xuất tính cơ số 10: 256GB=256109Bytes.
+ -Windows tính cơ số 2 (1 GiB = 10243Bytes):
+ -Dung lượng Windows hiển thị=25610910243238.4GB
+Phần 2: Cây thư mục chuẩn 3 cấp (Ổ D: / Kebab-case)
+Plaintext
+D:\
+└── ptit-python/                      [Cấp 1: Workspace môn học]
+    ├── session-01/                   [Cấp 2: Buổi học]
+    │   ├── bai-tap-1.py              [Cấp 3: File mã nguồn]
+    │   └── bai-tap-2.py
+    └── assignments/                  [Cấp 2: Bài tập lớn]
+        └── assignment-1.py           [Cấp 3: File mã nguồn]
+
+Quy tắc áp dụng: Dùng ổ D: để an toàn dữ liệu; tên đặt theo kebab-case (chữ thường, không dấu, phân cách bằng dấu -).
+
